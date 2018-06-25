@@ -4,7 +4,9 @@ export default class About extends Component {
   render() {
     return (
       <div className="about">
-        <h1>About Me</h1>
+        <div className="title">
+          <h1>About</h1>
+        </div>
         <img src={Photo} alt="" />
         <p>
           A forward-thinking developer dedicated to creating and improving next
