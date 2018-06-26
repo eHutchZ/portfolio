@@ -5,13 +5,13 @@ export default class Navbar extends Component {
     return (
       <div className="navbar">
         <a className="btn btn-nav" href="#landing">
-          Home
+          <span>Home</span>
         </a>
         <a className="btn btn-nav" href="#about">
-          About
+          <span>About</span>
         </a>
         <a className="btn btn-nav" href="#projects">
-          Projects
+          <span>Projects</span>
         </a>
       </div>
     );

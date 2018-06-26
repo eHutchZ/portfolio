@@ -5,7 +5,7 @@ import VoteCo from '../images/vote-co.png';
 import RogueLike from '../images/rogue-like.png';
 import NightLife from '../images/nightlife.png';
 import RecipeList from '../images/recipes.png';
-import Navbar from '../components/Navbar';
+import { arrowLeft } from './arrow';
 
 export default class Projects extends Component {
   render() {
@@ -65,6 +65,7 @@ export default class Projects extends Component {
             </div>
           </div>
         </div>
+        <a href="#about">{arrowLeft}</a>
       </div>
     );
   }

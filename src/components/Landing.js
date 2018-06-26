@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Divider from '../images/divider.png';
-import Photo from '../images/profile.jpg';
 
+import { arrowRight } from './arrow';
 export default class Landing extends Component {
   render() {
     return (
@@ -14,8 +14,8 @@ export default class Landing extends Component {
           <div className="jobTitle">
             <h1>Full Stack Developer</h1>
           </div>
-          <img className="profile-image" src={Photo} alt="" />
         </div>
+        <a href="#about">{arrowRight}</a>
       </div>
     );
   }
