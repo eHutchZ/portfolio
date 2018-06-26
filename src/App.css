@@ -10,7 +10,6 @@ body {
   color: #2a2a2c;
   min-height: 100vh;
   position: relative;
-  overflow: hidden;
   font-size: 16;
 
   /* padding-top: 20px; */
@@ -22,7 +21,7 @@ h1 {
 }
 .App {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: nowrap;
   /* overflow-x: auto; */
 }
@@ -129,7 +128,7 @@ h1 {
 }
 
 /************ABOUT*************/
-
+/* 
 .about {
   text-align: center;
   height: 100vh;
@@ -150,14 +149,13 @@ h1 {
 .image-container {
   display: flex;
   justify-content: center;
-  /* flex: 1; */
+
 }
 .about-container {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 30px;
-  /* flex: 1; */
 }
 .profile-image {
   width: 200px;
@@ -191,7 +189,7 @@ h1 {
   letter-spacing: 3px;
   font-weight: 700;
   font-size: 1.5em;
-}
+} */
 /************PROJECTS*************/
 
 .projects {
@@ -204,19 +202,28 @@ h1 {
 .projectContainer {
   margin-top: 5vh;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  align-content: flex-start;
+  align-items: center;
+  width: 65%;
+  margin: 5vh auto;
 }
 .card {
-  height: 267px;
+  /* height: 267px; */
+  width: 100%;
   margin: 15px;
   border: 1px solid #777;
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.3);
   transition: all 0.15s;
+  display: flex;
+  flex-direction: row;
 }
-.card:hover {
+.card-img {
+  /* height: 100%; */
+  flex: 0 0 100%;
+}
+/* .card:hover {
   cursor: pointer;
   transform: translateY(-2px);
 }
@@ -247,7 +254,7 @@ h1 {
   width: 400px;
   display: block;
   object-fit: contain;
-}
+} */
 
 /************FOOTER*************/
 
@@ -273,7 +280,7 @@ h1 {
 
 /************ARROW*************/
 
-.right-arrow-container,
+/* .right-arrow-container,
 .left-arrow-container {
   position: absolute;
   top: 40%;
@@ -323,4 +330,4 @@ h1 {
 .right {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
-}
+} */

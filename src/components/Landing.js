@@ -15,7 +15,6 @@ export default class Landing extends Component {
             <h1>Full Stack Developer</h1>
           </div>
         </div>
-        <a href="#about">{arrowRight}</a>
       </div>
     );
   }

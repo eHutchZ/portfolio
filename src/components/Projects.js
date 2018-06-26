@@ -65,7 +65,6 @@ export default class Projects extends Component {
             </div>
           </div>
         </div>
-        <a href="#about">{arrowLeft}</a>
       </div>
     );
   }
