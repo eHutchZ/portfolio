@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { arrowRight, arrowLeft } from './arrow';
 import Photo from '../images/profile.jpg';
-var FontAwesome = require('react-fontawesome');
 
 export default class About extends Component {
   render() {
@@ -18,9 +17,7 @@ export default class About extends Component {
             <h2>
               Hello! My name is Eric Hutchison and I am a Full-Stack Developer.
             </h2>
-            <p>
-            I hav
-            </p>
+            <p>I hav</p>
             <div className="social-container">
               <a
                 className="btn"
