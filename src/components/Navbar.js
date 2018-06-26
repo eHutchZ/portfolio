@@ -4,11 +4,15 @@ export default class Navbar extends Component {
   render() {
     return (
       <div className="navbar">
-        <ul className="nav-ul">
-          <li>Home</li>
-          <li>About</li>
-          <li>Projects</li>
-        </ul>
+        <a className="btn btn-nav" href="#landing">
+          Home
+        </a>
+        <a className="btn btn-nav" href="#about">
+          About
+        </a>
+        <a className="btn btn-nav" href="#projects">
+          Projects
+        </a>
       </div>
     );
   }

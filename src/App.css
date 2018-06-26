@@ -4,11 +4,15 @@
   box-sizing: border-box;
 }
 body {
-  width: 100vw;
-  background: #d5efa5;
-  color: #304900;
+  /* width: 100%; */
+  min-width: 100vw;
+  background: #2a2a2c;
+  color: #f1f0f1;
   min-height: 100vh;
   position: relative;
+  overflow-y: hidden;
+  overflow-x: visible;
+  /* padding-top: 20px; */
 }
 h1 {
   margin: 0;
@@ -17,7 +21,9 @@ h1 {
 }
 .App {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  /* overflow-x: auto; */
 }
 .title {
   text-align: center;
@@ -30,50 +36,86 @@ h1 {
 
 .navbar {
   display: flex;
-  width: 100vw;
+  width: 100%;
   height: 50px;
   position: fixed;
-  top: 0;
-  background-color: #f6fcec;
+  bottom: 0;
+  background-color: #2a2a2c;
   justify-content: center;
   z-index: 1;
+  align-items: center;
 }
-.nav-ul {
+/* .nav-ul {
   display: flex;
   flex: 1;
   list-style-type: none;
   justify-content: center;
   flex-direction: row;
   margin: auto;
+  
+} */
+/* .nav-item {
+  padding: 0 25px;
+  letter-spacing: 5px;
+  font-size: 24px;
+} */
+.nav-btn {
+  letter-spacing: 10px;
 }
-.nav-ul li {
-  padding: 0 20px;
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 25px;
+  color: #f1f0f1;
+  border: 1px solid white;
 }
 
 /************LANDING*************/
 
 .landing {
-  padding-top: 5vh;
+  display: flex;
+  flex: 0 0 auto;
   height: 100vh;
+  width: 100vw;
   position: relative;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 1),
+      rgba(255, 255, 255, 0.005)
+    ),
+    url(./images/landing.jpg);
+  background-size: cover;
+  background-position: center;
 }
 .text-box {
-  position: absolute;
   width: 80%;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   text-align: center;
+  backface-visibility: hidden;
 }
 .heading-primary {
   text-transform: uppercase;
   font-size: 60px;
   font-weight: 400;
   letter-spacing: 20px;
+  animation: fadeIn 2s ease-out;
 }
 .jobTitle h1 {
   font-size: 38px;
   letter-spacing: 7px;
+  margin-bottom: 60px;
+  animation: fadeIn 2s ease-out;
+}
+.profile-image {
+  max-width: 450px;
+  max-height: 450px;
+  margin: 0 auto;
+  display: block;
+  border: 2px solid #2a2a2c;
+  border-radius: 20px;
 }
 
 /************DIVIDER*************/
@@ -86,47 +128,44 @@ h1 {
 }
 .divider {
   text-align: center;
-  max-width: 300px;
+  max-width: 20%;
 }
 
 /************ABOUT*************/
 
 .about {
   text-align: center;
-  height: 70vh;
+  height: 100vh;
+  width: 100vw;
+  flex: 0 0 auto;
 }
 .about p {
   margin-left: 25%;
   margin-right: 25%;
   font-size: 1.5em;
 }
-.about img {
-  max-width: 250px;
-  max-height: 250px;
-  margin: 0 auto;
-  display: block;
-  border-radius: 125px;
-}
 
 /************PROJECTS*************/
 
 .projects {
-  height: 95vh;
-  padding-top: 5vh;
-  max-width: 1296px;
+  height: 100vh;
+  width: 100vw;
   margin: 0 auto;
+  flex: 0 0 auto;
 }
 .projectContainer {
   margin-top: 5vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
 }
 .card {
   height: 267px;
   margin: 15px;
   border: 1px solid #777;
-  box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.4);
+  box-shadow: 10px 15px 30px rgba(255, 255, 255, 0.3);
   transition: all 0.15s;
 }
 .card:hover {
@@ -135,7 +174,7 @@ h1 {
 }
 .card:active {
   transform: translateY(-1px);
-  box-shadow: 7px 10px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 7px 10px 10px rgba(255, 255, 255, 0.3);
 }
 .card-img {
   position: relative;
@@ -150,6 +189,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #2a2a2c;
 }
 .card-title span {
   font-size: 28px;
@@ -164,10 +204,21 @@ h1 {
 /************FOOTER*************/
 
 .footer {
-  background-color: #f6fcec;
+  background-color: #2a2a2c;
   text-align: center;
   position: absolute;
   bottom: 0;
   width: 100%;
   height: 10vh;
+}
+
+/************KEYFRAMES*************/
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

@@ -5,11 +5,12 @@ import VoteCo from '../images/vote-co.png';
 import RogueLike from '../images/rogue-like.png';
 import NightLife from '../images/nightlife.png';
 import RecipeList from '../images/recipes.png';
+import Navbar from '../components/Navbar';
 
 export default class Projects extends Component {
   render() {
     return (
-      <div className="projects">
+      <div className="projects" id="projects">
         <div className="title">
           <h1>Projects</h1>
         </div>
