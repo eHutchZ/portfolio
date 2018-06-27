@@ -19,32 +19,6 @@ export default class About extends Component {
               Hello! My name is Eric Hutchison and I am a Full-Stack Developer.
             </h2>
             <p>I hav</p>
-            <div className="social-container">
-              <a
-                className="btn"
-                href="https://github.com/Zaknefeinn"
-                target="_blank"
-              >
-                <div className="icon-box">
-                  <span className="icon">
-                    <i className="fab fa-github" />
-                  </span>
-                  <span className="icon-text">GitHub</span>
-                </div>
-              </a>
-              <a
-                className="btn"
-                href="https://www.linkedin.com/in/elhutchison/"
-                target="_blank"
-              >
-                <div className="icon-box">
-                  <span className="icon">
-                    <i className="fab fa-linkedin-in" />
-                  </span>
-                  <span className="icon-text">LinkedIn</span>
-                </div>
-              </a>
-            </div>
           </div>
         </div>
         <a href="#projects">{arrowRight}</a>
