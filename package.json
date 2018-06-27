@@ -15,7 +15,7 @@
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "http://ehutchison.net",
+  "homepage": "https://zaknefeinn.github.io/portfolio",
   "devDependencies": {
     "gh-pages": "^1.2.0"
   }
