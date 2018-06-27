@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Divider from '../images/divider.png';
 
-import { arrowRight } from './arrow';
 export default class Landing extends Component {
   render() {
     return (
