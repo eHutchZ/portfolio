@@ -10,6 +10,7 @@ export default class Footer extends Component {
               className="btn"
               href="https://github.com/Zaknefeinn"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <div className="icon-box">
                 <span className="icon">
@@ -22,6 +23,7 @@ export default class Footer extends Component {
               className="btn"
               href="https://www.linkedin.com/in/elhutchison/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <div className="icon-box">
                 <span className="icon">

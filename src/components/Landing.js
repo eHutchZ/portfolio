@@ -8,7 +8,7 @@ export default class Landing extends Component {
         <div className="text-box">
           <h1 className="heading-primary">Eric Hutchison</h1>
           <div className="divider-container">
-            <img className="divider" src={Divider} />
+            <img className="divider" alt="divider" src={Divider} />
           </div>
           <div className="jobTitle">
             <h1>Full Stack Developer</h1>

@@ -16,6 +16,7 @@ export default class Navbar extends Component {
             className="btn btn-nav"
             href="https://github.com/Zaknefeinn"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <span>GitHub</span>
           </a>
@@ -38,6 +39,7 @@ export default class Navbar extends Component {
               className="btn btn-nav"
               href="https://github.com/Zaknefeinn"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <span>GitHub</span>
             </a>
