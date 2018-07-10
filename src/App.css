@@ -24,6 +24,7 @@ h1 {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
+  position: relative;
 }
 .title {
   text-align: center;
@@ -311,6 +312,24 @@ h1 {
 .footer-bottom {
   height: 2em;
 }
+
+/************About*************/
+
+.About {
+  position: fixed;
+  top: 6.5em;
+  left: 0;
+  z-index: 100;
+  transform: rotate(90deg);
+  transform-origin: 20%;
+}
+.About button {
+  padding: 15px 35px;
+  color: #ebebeb;
+  background-color: #2a2a2c;
+  border: none;
+}
+
 /************KEYFRAMES*************/
 
 @keyframes fadeIn {
