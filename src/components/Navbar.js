@@ -5,6 +5,17 @@ export default class Navbar extends Component {
   render() {
     return (
       <div className="navbar">
+        <div className="navbar-contact">
+          <a className="btn btn-nav">
+            <span>Contact Me!</span>
+          </a>
+          <div className="contact-container">
+            <p>Eric Hutchison</p>
+            <p>ehutc00f@gmail.com</p>
+            <p>Centerton, AR</p>
+            <p>479.800.8269</p>
+          </div>
+        </div>
         <div className="navbar-full-screen">
           <a className="btn btn-nav" href="#landing">
             <span>Home</span>

@@ -134,6 +134,42 @@ h1 {
   display: block;
 }
 
+.navbar-contact {
+  display: flex;
+  height: 3.5em;
+  overflow: hidden;
+  margin-right: auto;
+  width: 200px;
+}
+.navbar-contact:hover {
+  cursor: pointer;
+}
+.navbar-contact:hover .contact-container {
+  display: flex;
+}
+.navbar-contact a {
+  letter-spacing: 2px;
+  margin: auto;
+}
+.contact-container {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  top: 3.5em;
+  left: 0;
+  position: absolute;
+  background-color: rgba(42, 42, 44, 0.4);
+  z-index: 100;
+  width: 200px;
+  height: 200px;
+}
+.contact-container p {
+  font-weight: 700;
+  color: #ebebeb;
+  letter-spacing: 1px;
+}
+
 /************LANDING*************/
 
 .landing {
@@ -315,20 +351,36 @@ h1 {
 
 /************About*************/
 
-.About {
+/* .About {
   position: fixed;
-  top: 6.5em;
+  top: 8.5em;
   left: 0;
   z-index: 100;
-  transform: rotate(90deg);
-  transform-origin: 20%;
+
+  display: block;
+  width: 200px;
+  height: 300px;
+  background-color: #2a2a2c;
 }
 .About button {
+  transform: rotate(-90deg);
+  transform-origin: 223px;
+
   padding: 15px 35px;
   color: #ebebeb;
   background-color: #2a2a2c;
   border: none;
+  position: absolute;
+
 }
+.about-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+} */
+/* .About {
+  position:
+} */
 
 /************KEYFRAMES*************/
 
