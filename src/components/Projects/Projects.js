@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
-// import StockMarket from '../images/stock-market.png';
-// import Momentum from '../images/momentum.png';
-// import VoteCo from '../images/vote-co.png';
-// import RogueLike from '../images/rogue-like.png';
-// import NightLife from '../images/nightlife.png';
-// import RecipeList from '../images/recipes.png';
+
+import VoteCo from '../../images/VoteCo.jpg';
+import ChinguTabs from '../../images/ChinguTabs.jpg';
+import StockMarket from '../../images/StockMarket.jpg';
+import DungeonCrawler from '../../images/DungeonCrawler.jpg';
+import D3Projects from '../../images/D3Projects.jpg';
+
 import Card from './Card';
+
 export default class Projects extends Component {
   render() {
     return (
@@ -16,7 +18,7 @@ export default class Projects extends Component {
         <div className="projectContainer">
           <Card
             title="ChinguTabs"
-            description="A team project based off the popular chrome extension, Momentum."
+            description="A remote team project based off the popular chrome extension, Momentum."
             skills={[
               'HTML',
               'CSS',
@@ -26,6 +28,7 @@ export default class Projects extends Component {
               'Express',
               'MongoDB'
             ]}
+            image={ChinguTabs}
             live="https://chrome.google.com/webstore/search/chingutabs"
             github="https://github.com/chingu-voyage4/Bears-Team-13"
           />
@@ -41,19 +44,14 @@ export default class Projects extends Component {
               'Express',
               'MongoDB'
             ]}
+            image={VoteCo}
             live="https://vote-co-20853.herokuapp.com/"
             github="https://github.com/Zaknefeinn/voting-app"
           />
+
           <Card
             title="Chart the Stock Market"
             description="Check a visual chart of your stocks, add and remove stocks, all in real time using socket.io"
-            skills={['HTML', 'CSS', 'JavaScript', 'React', 'Node']}
-            live="https://thawing-plateau-12593.herokuapp.com/"
-            github="https://github.com/Zaknefeinn/chart-the-stock-market"
-          />
-          <Card
-            title="Dungeon Crawler"
-            description="One of my earlier projects with React. With my knowledge now, it could be optimized, but it was a fun and exciting experience to create!"
             skills={[
               'HTML',
               'CSS',
@@ -64,8 +62,25 @@ export default class Projects extends Component {
               'MongoDB',
               'socket.io'
             ]}
+            image={StockMarket}
+            live="https://thawing-plateau-12593.herokuapp.com/"
+            github="https://github.com/Zaknefeinn/chart-the-stock-market"
+          />
+          <Card
+            title="Dungeon Crawler"
+            description="A mini-game based off the classic Roguelike genre. Gather health, weapons, fight enemies, and progress through the levels to the final boss"
+            skills={['HTML', 'CSS', 'JavaScript', 'React', 'Node']}
+            image={DungeonCrawler}
             live="https://rogue-like-93413.herokuapp.com/"
             github="https://github.com/Zaknefeinn/Dungeon-Crawler"
+          />
+          <Card
+            title="Data-Visualization"
+            description="Multiple projects working with D3.js to chart several different data sets, ranging from heat maps to world maps.  "
+            skills={['HTML', 'CSS', 'JavaScript', 'D3', 'TopoJSON', 'Node']}
+            image={D3Projects}
+            live="https://zaknefeinn.github.io/Data-Vizualization/"
+            github="https://github.com/Zaknefeinn/Data-Vizualization"
           />
         </div>
       </div>

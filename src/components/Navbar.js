@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import { Document } from 'react-pdf';
-import Test from '../static/Eric-Hutchison-Resume.pdf';
+import Resume from '../static/Eric-Hutchison-Resume.pdf';
 export default class Navbar extends Component {
   render() {
     return (
@@ -11,9 +11,11 @@ export default class Navbar extends Component {
           </a>
           <div className="contact-container">
             <p>Eric Hutchison</p>
-            <p>ehutc00f@gmail.com</p>
+            <p>
+              <a href="mailto:ehutc00f@gmail.com">ehutc00f@gmail.com</a>
+            </p>
             <p>Centerton, AR</p>
-            <p>479.800.8269</p>
+            <p>(479) 800-8269</p>
           </div>
         </div>
         <div className="navbar-full-screen">
@@ -31,8 +33,14 @@ export default class Navbar extends Component {
           >
             <span>GitHub</span>
           </a>
-          <a className="btn btn-nav" href={Test}>
+          <a className="btn btn-nav" href={Resume}>
             <span>Resume</span>
+          </a>
+          <a
+            className="btn btn-nav"
+            href="https://www.linkedin.com/in/elhutchison/"
+          >
+            <span>LinkedIn</span>
           </a>
         </div>
         <div className="navbar-mobile">
@@ -54,8 +62,14 @@ export default class Navbar extends Component {
             >
               <span>GitHub</span>
             </a>
-            <a className="btn btn-nav" href={Test}>
+            <a className="btn btn-nav" href={Resume}>
               <span>Resume</span>
+            </a>
+            <a
+              className="btn btn-nav"
+              href="https://www.linkedin.com/in/elhutchison/"
+            >
+              <span>LinkedIn</span>
             </a>
           </div>
         </div>
