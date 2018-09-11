@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import Navbar from './components/Navbar';
-import About from './components/About';
+import Footer from './components/Footer';
 import Landing from './components/Landing';
-import Projects from './components/Projects';
-// import '../node_modules/font-awesome/css/font-awesome.min.css';
+import Projects from './components/Projects/Projects';
+
 import './App.css';
 
 class App extends Component {
@@ -12,8 +12,8 @@ class App extends Component {
       <div className="App">
         <Navbar />
         <Landing />
-        <About />
         <Projects />
+        <Footer />
       </div>
     );
   }
