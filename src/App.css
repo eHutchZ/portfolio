@@ -1,6 +1,6 @@
 * {
-  margin: 0;
-  padding: 0;
+  /* margin: 0;
+  padding: 0; */
   box-sizing: border-box;
 }
 html {
@@ -390,6 +390,65 @@ a {
   height: 2em;
 }
 
+/************RESUME*************/
+.Resume {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: row;
+  margin-top: 3.5em;
+  width: 100%;
+  margin: 4.5em 10%;
+  overflow: hidden;
+  /* height: 100vh; */
+  font-family: Georgia, Times, Times New Roman, serif;
+  padding-bottom: 3.5em;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.resume-left {
+  width: 20%;
+}
+.resume-right {
+  width: 60%;
+  padding-left: 10%;
+}
+.resume-photo {
+  width: 50%;
+  margin: 0 25%;
+  border-radius: 50%;
+}
+ul {
+  list-style-type: circle;
+  padding-inline-start: 80px;
+  margin-block-start: 0.5em;
+}
+.resume-item {
+  position: relative;
+  margin-block-end: 1em;
+}
+.resume-item-title {
+  font-size: 1em;
+}
+.resume-section-header {
+  color: #8b0000;
+}
+.resume-link {
+  color: #4242d1;
+  font-weight: bold;
+}
+.resume-item-position {
+  padding-inline-start: 40px;
+  font-style: italic;
+  margin: 0.5em 0;
+}
+.resume-item-date {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
 /************KEYFRAMES*************/
 
 @keyframes fadeIn {
@@ -451,6 +510,9 @@ a {
   .live {
     padding: 0 25px;
     margin-top: 15px;
+  }
+  .projectContainer {
+    width: 80%;
   }
 }
 

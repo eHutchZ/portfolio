@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import { NavHashLink as NavLink } from 'react-router-hash-link';
 // import { Document } from 'react-pdf';
 import Resume from '../static/Eric-Hutchison-Resume.pdf';
 export default class Navbar extends Component {
@@ -21,12 +23,12 @@ export default class Navbar extends Component {
           </div>
         </div>
         <div className="navbar-full-screen">
-          <a className="btn btn-nav" href="#landing">
+          <NavLink className="btn btn-nav" to="/#landing">
             <span>Home</span>
-          </a>
-          <a className="btn btn-nav" href="#projects">
+          </NavLink>
+          <NavLink className="btn btn-nav" to="/#projects">
             <span>Projects</span>
-          </a>
+          </NavLink>
           <a
             className="btn btn-nav"
             href="https://github.com/Zaknefeinn"
@@ -35,9 +37,9 @@ export default class Navbar extends Component {
           >
             <span>GitHub</span>
           </a>
-          <a className="btn btn-nav" href={Resume}>
+          <Link className="btn btn-nav" to="/resume">
             <span>Resume</span>
-          </a>
+          </Link>
           <a
             className="btn btn-nav"
             href="https://www.linkedin.com/in/elhutchison/"
@@ -52,12 +54,12 @@ export default class Navbar extends Component {
             <i className="fas fa-bars" />
           </span>
           <div className="dropdown-content">
-            <a className="btn btn-nav" href="#landing">
+            <NavLink className="btn btn-nav" to="/#landing">
               <span>Home</span>
-            </a>
-            <a className="btn btn-nav" href="#projects">
+            </NavLink>
+            <NavLink className="btn btn-nav" to="/#projects">
               <span>Projects</span>
-            </a>
+            </NavLink>
             <a
               className="btn btn-nav"
               href="https://github.com/Zaknefeinn"
@@ -66,9 +68,9 @@ export default class Navbar extends Component {
             >
               <span>GitHub</span>
             </a>
-            <a className="btn btn-nav" href={Resume}>
+            <Link className="btn btn-nav" to="/resume">
               <span>Resume</span>
-            </a>
+            </Link>
             <a
               className="btn btn-nav"
               href="https://www.linkedin.com/in/elhutchison/"
