@@ -12,7 +12,9 @@ export default class Navbar extends Component {
           <div className="contact-container">
             <p>Eric Hutchison</p>
             <p>
-              <a href="mailto:ehutc00f@gmail.com">ehutc00f@gmail.com</a>
+              <a className="contact-anchor" href="mailto:ehutc00f@gmail.com">
+                ehutc00f@gmail.com
+              </a>
             </p>
             <p>Centerton, AR</p>
             <p>(479) 800-8269</p>
