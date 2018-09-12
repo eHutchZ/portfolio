@@ -393,31 +393,38 @@ a {
 /************RESUME*************/
 .Resume {
   display: flex;
-  /* justify-content: center; */
+  flex-direction: column;
+  margin: 4.5em 0;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 4.5em;
+}
+.resume-container {
+  display: flex;
   flex-direction: row;
-  margin-top: 3.5em;
-  width: 100%;
-  margin: 4.5em 10%;
+  justify-content: center;
   overflow: hidden;
-  /* height: 100vh; */
   font-family: Georgia, Times, Times New Roman, serif;
-  padding-bottom: 3.5em;
+  padding: 1em 0;
 }
 .column {
   display: flex;
   flex-direction: column;
 }
 .resume-left {
-  width: 20%;
+  width: 10%;
 }
 .resume-right {
-  width: 60%;
-  padding-left: 10%;
+  width: 40%;
+  padding-left: 5%;
 }
 .resume-photo {
-  width: 50%;
-  margin: 0 25%;
+  width: 65%;
+  margin: 5% 15%;
   border-radius: 50%;
+}
+.resume-name {
+  margin-bottom: 50px;
 }
 ul {
   list-style-type: circle;
@@ -448,7 +455,16 @@ ul {
   right: 0;
   top: 0;
 }
-
+.resume-download {
+  margin: 40px 0;
+}
+.resume-download button {
+  background-color: #2a2a2c;
+  color: #dcdcdc;
+  padding: 15px;
+  radius: 4px;
+  font-size: 1.25em;
+}
 /************KEYFRAMES*************/
 
 @keyframes fadeIn {
@@ -457,6 +473,28 @@ ul {
   }
   100% {
     opacity: 1;
+  }
+}
+@media only screen and (max-width: 1800px) {
+  .resume-left {
+    width: 15%;
+  }
+}
+@media only screen and (max-width: 1480px) {
+  .resume-left {
+    width: 30%;
+  }
+  .resume-right {
+    width: 50%;
+  }
+  .resume-container {
+    margin: 1.5em 5%;
+  }
+}
+
+@media only screen and (max-width: 1130px) {
+  .resume-right {
+    width: 60%;
   }
 }
 
@@ -499,6 +537,18 @@ ul {
   }
   .jobTitle h1 {
     font-size: 1.5em;
+  }
+  .resume-container {
+    flex-direction: column;
+    margin: 1.5em 0;
+    align-items: center;
+  }
+  .resume-left {
+    width: 60%;
+    padding-left: 5%;
+  }
+  .resume-item-date {
+    position: relative;
   }
 }
 @media only screen and (max-width: 675px) {

@@ -67,20 +67,20 @@ export default class Projects extends Component {
             github="https://github.com/Zaknefeinn/chart-the-stock-market"
           />
           <Card
-            title="Dungeon Crawler"
-            description="A mini-game based off the classic Roguelike genre. Gather health, weapons, fight enemies, and progress through the levels to the final boss"
-            skills={['HTML', 'CSS', 'JavaScript', 'React', 'Node']}
-            image={DungeonCrawler}
-            live="https://rogue-like-93413.herokuapp.com/"
-            github="https://github.com/Zaknefeinn/Dungeon-Crawler"
-          />
-          <Card
             title="Data-Visualization"
             description="Multiple projects working with D3.js to chart several different data sets, ranging from heat maps to world maps.  "
             skills={['HTML', 'CSS', 'JavaScript', 'D3', 'TopoJSON', 'Node']}
             image={D3Projects}
             live="https://zaknefeinn.github.io/Data-Vizualization/"
             github="https://github.com/Zaknefeinn/Data-Vizualization"
+          />
+          <Card
+            title="Dungeon Crawler"
+            description="A mini-game based off the classic Roguelike genre. Gather health, weapons, fight enemies, and progress through the levels to the final boss"
+            skills={['HTML', 'CSS', 'JavaScript', 'React', 'Node']}
+            image={DungeonCrawler}
+            live="https://rogue-like-93413.herokuapp.com/"
+            github="https://github.com/Zaknefeinn/Dungeon-Crawler"
           />
         </div>
       </div>

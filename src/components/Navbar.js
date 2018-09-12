@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
-// import { Document } from 'react-pdf';
-import Resume from '../static/Eric-Hutchison-Resume.pdf';
+
 export default class Navbar extends Component {
   render() {
     return (
@@ -37,9 +36,9 @@ export default class Navbar extends Component {
           >
             <span>GitHub</span>
           </a>
-          <Link className="btn btn-nav" to="/resume">
+          <NavLink className="btn btn-nav" to="/resume">
             <span>Resume</span>
-          </Link>
+          </NavLink>
           <a
             className="btn btn-nav"
             href="https://www.linkedin.com/in/elhutchison/"
@@ -68,9 +67,9 @@ export default class Navbar extends Component {
             >
               <span>GitHub</span>
             </a>
-            <Link className="btn btn-nav" to="/resume">
+            <NavLink className="btn btn-nav" to="/resume">
               <span>Resume</span>
-            </Link>
+            </NavLink>
             <a
               className="btn btn-nav"
               href="https://www.linkedin.com/in/elhutchison/"
