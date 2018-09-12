@@ -492,9 +492,13 @@ ul {
   }
 }
 
-@media only screen and (max-width: 1130px) {
+@media only screen and (max-width: 1220px) {
   .resume-right {
     width: 60%;
+  }
+
+  .resume-item-date {
+    position: relative;
   }
 }
 
@@ -546,9 +550,6 @@ ul {
   .resume-left {
     width: 60%;
     padding-left: 5%;
-  }
-  .resume-item-date {
-    position: relative;
   }
 }
 @media only screen and (max-width: 675px) {

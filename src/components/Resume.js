@@ -9,7 +9,7 @@ export default class Resume extends Component {
     return (
       <div id="resume" className="Resume">
         <div className="resume-download">
-          <a href={ResumePDF}>
+          <a href={ResumePDF} target="_blank" rel="noopener noreferrer">
             <button>Download My Resume</button>
           </a>
         </div>
@@ -80,13 +80,12 @@ export default class Resume extends Component {
                   <li>
                     Develop applications with a small, remote team utilizing
                     technologies, such as React, NodeJS, Express, and MongoDB
-                    Southern
                   </li>
                 </ul>
               </div>
               <div className="resume-item">
                 <div className="resume-item-title">
-                  Reprographics, Inc. - Bentonville, AR
+                  Southern Reprographics, Inc. - Bentonville, AR
                 </div>
                 <div className="resume-item-date">Jan 2011 – Present</div>
                 <div className="resume-item-position">
@@ -146,6 +145,8 @@ export default class Resume extends Component {
                 <a
                   className="resume-link"
                   href="https://chrome.google.com/webstore/search/chingutabs"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   ChinguTabs
                 </a>
@@ -156,6 +157,8 @@ export default class Resume extends Component {
                 <a
                   className="resume-link"
                   href="https://vote-co-20853.herokuapp.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   VoteCo
                 </a>
@@ -166,6 +169,8 @@ export default class Resume extends Component {
                 <a
                   className="resume-link"
                   href="https://zaknefeinn.github.io/Data-Vizualization/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   DataVisualization
                 </a>
@@ -176,13 +181,20 @@ export default class Resume extends Component {
                 <a
                   className="resume-link"
                   href="https://rogue-like-93413.herokuapp.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   DungeonCrawler
                 </a>
                 : A mini-game based off the classic Roguelike genre using React.
               </div>
               <div className="resume-item">
-                <a className="resume-link" href="https://ehutchison.net/">
+                <a
+                  className="resume-link"
+                  href="https://ehutchison.net/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Ehutchison.net
                 </a>
                 : My personal portfolio showcasing more of my projects, created
