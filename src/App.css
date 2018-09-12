@@ -462,7 +462,7 @@ ul {
   background-color: #2a2a2c;
   color: #dcdcdc;
   padding: 15px;
-  radius: 4px;
+  border-radius: 4px;
   font-size: 1.25em;
 }
 /************KEYFRAMES*************/

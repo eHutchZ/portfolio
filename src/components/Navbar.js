@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
 
 export default class Navbar extends Component {
