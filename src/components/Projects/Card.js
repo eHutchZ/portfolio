@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 const Card = ({ skills, title, image, description, github, live }) => {
   const skillList = skills.map((skill, index) => (
     <span key={title + index} className="skill">
@@ -18,18 +18,29 @@ const Card = ({ skills, title, image, description, github, live }) => {
           <p className="card-description">{description}</p>
           <div className="languages">{skillList}</div>
           <div className="card-links">
-            <a href={live} target="_blank" className="btn card-btn live">
+            <a
+              href={live}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn card-btn live"
+            >
               <span className="icon">
                 <i className="fas fa-external-link-square-alt" />
               </span>
               <span className="icon-text">Live</span>
             </a>
-             <a href={github} target="_blank" className="btn card-btn source" style={{backgroundColor: github? '#2a2a2c' : '#a40000'}}>
-                <span className="icon">
-                  <i className="fab fa-github" />
-                </span>
-                <span className="icon-text">{github ? 'GitHub' : 'Private'}</span>
-              </a>
+            <a
+              href={github}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn card-btn source"
+              style={{ backgroundColor: github ? '#2a2a2c' : '#a40000' }}
+            >
+              <span className="icon">
+                <i className="fab fa-github" />
+              </span>
+              <span className="icon-text">{github ? 'GitHub' : 'Private'}</span>
+            </a>
           </div>
         </div>
       </div>

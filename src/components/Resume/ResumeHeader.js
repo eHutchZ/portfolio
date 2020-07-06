@@ -10,7 +10,11 @@ const ResumeHeader = () => {
       <h2>Eric Hutchison</h2>
       <div className="resume-header-sub">
         <p>
-          <a href="https://www.linkedin.com/in/elhutchison/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/elhutchison/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             linkedin.com/in/elhutchison
           </a>
         </p>

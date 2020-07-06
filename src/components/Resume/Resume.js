@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ResumePhoto from '../../images/Resume_picture.jpg';
 import ResumePDF from '../../static/Eric-Hutchison-Resume.pdf';
 import ResumeHeader from './ResumeHeader';
 import ResumeSubheader from './ResumeSubheader';
@@ -25,7 +24,7 @@ export default class Resume extends Component {
         <ResumeCategory cat="EXPERIENCE" />
         {resumeJson.experience.map(item => {
           return (
-            <React.Fragment>
+            <>
               <ResumeSubheader
                 main={item.title}
                 sub={item.location}
@@ -39,7 +38,7 @@ export default class Resume extends Component {
                   <li>{bullet}</li>
                 ))}
               </ul>
-            </React.Fragment>
+            </>
           );
         })}
         <ResumeCategory cat="TECHNICAL SKILLS" />
@@ -51,7 +50,7 @@ export default class Resume extends Component {
         <ResumeCategory cat="EDUCATION" />
         {resumeJson.education.map(ed => {
           return (
-            <React.Fragment>
+            <>
               <ResumeSubheader
                 main={ed.title}
                 sub={ed.date}
@@ -60,7 +59,7 @@ export default class Resume extends Component {
               <ul>
                 {ed.description && ed.description.map(desc => <li>{desc}</li>)}
               </ul>
-            </React.Fragment>
+            </>
           );
         })}
       </div>

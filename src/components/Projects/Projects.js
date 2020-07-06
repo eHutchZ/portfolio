@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import MakerMade3D from '../../images/MakerMade3D.png';
 import Makerverse from '../../images/Makerverse.png';

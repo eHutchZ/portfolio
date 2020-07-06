@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
 
 const Navbar = () => (
   <div className="navbar">
     <div className="navbar-contact">
-      <a className="btn btn-nav">
+      <div className="btn btn-nav">
         <span>Contact Me!</span>
-      </a>
+      </div>
       <div className="contact-container">
         <p>Eric Hutchison</p>
         <p>
