@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Landing from './components/Landing';
 import Projects from './components/Projects/Projects';
-import Resume from './components/Resume';
+import Resume from './components/Resume/Resume';
 import './App.css';
 
 class App extends Component {

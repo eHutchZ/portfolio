@@ -1,0 +1,82 @@
+{
+  "experience": [
+    {
+      "title": "Walmart",
+      "location": "Bentonville, AR",
+      "position": [
+        { "title": "Software Engineer 1", "date": "Sept 2019 – Present" },
+        {
+          "title": "Associate Software Engineer",
+          "date": "Oct 2018 – Sept 2019"
+        }
+      ],
+      "bullets": [
+        "Developed a support bot using React and NodeJS, available to approximately 1.5 million users, resulting in an overall decrease in support tickets and increase in associate productivity.",
+        "Architected and deployed a feedback module built for both code-in and as a Chrome extension, giving associates a voice on what products they prefer, and features they would like to see.  ",
+        "Migrated existing applications from on-prem hosting to Azure Cloud Services",
+        "Mentored junior developers for career and skill growth"
+      ]
+    },
+    {
+      "title": "Hutchison Web Development, LLC",
+      "location": "Bentonville, AR",
+      "position": [{ "title": "Owner", "date": "Nov 2019 – Present" }],
+      "bullets": [
+        "Custom tailored web applications and user interfaces for clients, ranging from e-commerce websites to electron desktop applications.",
+        "Collaborated with clients during the development process to ensure finished products meet expectations."
+      ]
+    },
+    {
+      "title": "Southern Reprographics, Inc.",
+      "location": "Bentonville, AR",
+      "position": [
+        {
+          "title": "Production Manager / File manager",
+          "date": "Jan 2011 – Oct 2018"
+        }
+      ],
+      "bullets": [
+        "Expedited orders via email, phone calls, as well as in person while maintaining workflow.",
+        "Electronically filed bidding jobs in the area for general and subcontractors to view and distribute using proprietary web-based programming."
+      ]
+    }
+  ],
+  "skills": [
+    "JavaScript",
+    "ES6",
+    "Typescript",
+    "Chrome API",
+    "HTML",
+    "CSS3",
+    "Git",
+    "CI/CD",
+    "NodeJS",
+    "Express",
+    "MongoDB",
+    "OAuth",
+    "ReactJS",
+    "Redux",
+    "React Native",
+    "Webpack"
+  ],
+  "education": [
+    {
+      "title": "Chingu",
+      "date": "Nov 2017 – Oct 2018",
+      "description": [
+        "Multiple 6-week sprints remotely pair programming with a team of developers for the purpose of growing technical and soft skills."
+      ]
+    },
+    {
+      "title": "freeCodeCamp",
+      "date": "Oct 2016 – May 2018",
+      "description": [
+        "Approximately 1,100 hours of coursework with certificate of completion in front-end and data visualization."
+      ]
+    },
+    {
+      "title": "Bentonville High School",
+      "date": "May 2009"
+    }
+  ]
+}

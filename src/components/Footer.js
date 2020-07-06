@@ -1,44 +1,42 @@
 import React, { Component } from 'react';
 
-export default class Footer extends Component {
-  render() {
-    return (
-      <div className="footer">
-        <div className="footer-container">
-          <div className="social-container">
-            <a
-              className="btn"
-              href="https://github.com/Zaknefeinn"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div className="icon-box">
-                <span className="icon">
-                  <i className="fab fa-github" />
-                </span>
-                <span className="icon-text">GitHub</span>
-              </div>
-            </a>
-            <a
-              className="btn"
-              href="https://www.linkedin.com/in/elhutchison/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div className="icon-box">
-                <span className="icon">
-                  <i className="fab fa-linkedin-in" />
-                </span>
-                <span className="icon-text">LinkedIn</span>
-              </div>
-            </a>
+const Footer = () => (
+  <div className="footer">
+    <div className="footer-container">
+      <div className="social-container">
+        <a
+          className="btn"
+          href="https://github.com/eHutchZ"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className="icon-box">
+            <span className="icon">
+              <i className="fab fa-github" />
+            </span>
+            <span className="icon-text">GitHub</span>
           </div>
-
-          <div className="footer-bottom">
-            ©2018 - Eric Hutchison. All Rights Reserved.
+        </a>
+        <a
+          className="btn"
+          href="https://www.linkedin.com/in/elhutchison/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className="icon-box">
+            <span className="icon">
+              <i className="fab fa-linkedin-in" />
+            </span>
+            <span className="icon-text">LinkedIn</span>
           </div>
-        </div>
+        </a>
       </div>
-    );
-  }
-}
+
+      <div className="footer-bottom">
+        ©2020 - Eric Hutchison. All Rights Reserved.
+      </div>
+    </div>
+  </div>
+);
+
+export default Footer;

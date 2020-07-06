@@ -25,6 +25,7 @@ h1 {
   flex-direction: column;
   flex-wrap: nowrap;
   position: relative;
+  min-height: 100vh;
 }
 .title {
   text-align: center;
@@ -327,7 +328,6 @@ a {
   color: #2a2a2c;
 }
 .source {
-  background-color: #2a2a2c;
   color: #ebebeb;
 }
 .icon {
@@ -391,7 +391,7 @@ a {
 }
 
 /************RESUME*************/
-.Resume {
+/* .Resume {
   display: flex;
   flex-direction: column;
   margin: 4.5em 0;
@@ -406,7 +406,7 @@ a {
   overflow: hidden;
   font-family: Georgia, Times, Times New Roman, serif;
   padding: 1em 0;
-}
+} */
 .column {
   display: flex;
   flex-direction: column;

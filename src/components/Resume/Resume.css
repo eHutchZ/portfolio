@@ -1,0 +1,43 @@
+.resume-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 56px;
+  margin-bottom: 88px;
+  font-size: 18px;
+  font-family: Georgia, Times, Times New Roman, serif;
+  width: 1080px;
+}
+
+.resume-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.resume-header h2 {
+  font-size: 32px;
+  margin: 0;
+}
+.resume-header p {
+  margin: 5px 0;
+}
+.resume-sub-header {
+  display: flex;
+  justify-content: space-between;
+}
+.resume-sub-header p {
+  margin: 0;
+}
+.resume-skills {
+  columns: 4;
+  list-style-type: square;
+}
+.resume-container li {
+  margin-bottom: 6px;
+}
+.resume-category-header {
+  color: #8b0000;
+  border-bottom: 1px solid #8b0000;
+}
