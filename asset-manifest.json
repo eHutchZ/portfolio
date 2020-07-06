@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.3ddfaf24.chunk.css",
-    "main.js": "/static/js/main.ff8feb7e.chunk.js",
-    "main.js.map": "/static/js/main.ff8feb7e.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.59679a6a.chunk.js": "/static/js/2.59679a6a.chunk.js",
-    "static/js/2.59679a6a.chunk.js.map": "/static/js/2.59679a6a.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.4d843231638901fd783358a2b7fe7375.js": "/precache-manifest.4d843231638901fd783358a2b7fe7375.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.3ddfaf24.chunk.css.map": "/static/css/main.3ddfaf24.chunk.css.map",
-    "static/media/ChinguTabs.jpg": "/static/media/ChinguTabs.1658881f.jpg",
-    "static/media/Eric-Hutchison-Resume.pdf": "/static/media/Eric-Hutchison-Resume.e23168d3.pdf",
-    "static/media/MakerMade3D.png": "/static/media/MakerMade3D.ec4d92da.png",
-    "static/media/Makerverse.png": "/static/media/Makerverse.810dbabd.png",
-    "static/media/App.css": "/static/media/landing.fe265c8b.jpg"
+    "main.css": "/portfolio/static/css/main.dc529042.chunk.css",
+    "main.js": "/portfolio/static/js/main.4411c96c.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.4411c96c.chunk.js.map",
+    "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
+    "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
+    "static/js/2.59679a6a.chunk.js": "/portfolio/static/js/2.59679a6a.chunk.js",
+    "static/js/2.59679a6a.chunk.js.map": "/portfolio/static/js/2.59679a6a.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.df250a090d6d0ac6f90fe4294ea02813.js": "/portfolio/precache-manifest.df250a090d6d0ac6f90fe4294ea02813.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.dc529042.chunk.css.map": "/portfolio/static/css/main.dc529042.chunk.css.map",
+    "static/media/ChinguTabs.jpg": "/portfolio/static/media/ChinguTabs.1658881f.jpg",
+    "static/media/Eric-Hutchison-Resume.pdf": "/portfolio/static/media/Eric-Hutchison-Resume.e23168d3.pdf",
+    "static/media/MakerMade3D.png": "/portfolio/static/media/MakerMade3D.ec4d92da.png",
+    "static/media/Makerverse.png": "/portfolio/static/media/Makerverse.810dbabd.png",
+    "static/media/App.css": "/portfolio/static/media/landing.fe265c8b.jpg"
   }
 }
